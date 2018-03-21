@@ -1,0 +1,38 @@
+
+\.config/GitKraken/Cache/
+
+\.config/GitKraken/GPUCache/
+
+\.config/GitKraken/Cookies*
+
+\.config/chromium/CertificateRevocation/
+
+\.config/chromium/CertificateTransparency/
+
+\.config/chromium/Default/
+
+\.config/chromium/Avatars/
+
+\.config/chromium/ShaderCache/
+
+\.config/chromium/FileTypePolicies/
+
+\.config/chromium/Dictionaries/
+
+\.config/chromium/SSLErrorAssistant/
+
+\.config/chromium/Safe Browsing/
+
+\.config/chromium/First Run
+
+\.config/chromium/Local State
+
+\.config/chromium/Safe*
+
+\.config/chromium/Singleton*
+
+\.config/spotify/User Data/
+
+\.config/spotify/Users/
+
+*.*~

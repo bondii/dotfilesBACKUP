@@ -1,0 +1,32 @@
+!#################
+!# rofi settings #
+!#################
+! Define colors for rofi
+!
+! A lot of them are just transparent so only the background is shown
+!
+! Dark gray
+#define bg_color        #002f343f
+! White-gray
+#define fg_color        #f3f4f5
+!
+#define bg_color_alt    #002f343f
+!
+#define hl_bg_color     #002f343f
+! Cyan
+#define hl_fg_color     #2aa198
+!
+#define bd_color        #002f343f
+!
+#define sp_color        #252933
+
+rofi.color-enabled:     True
+! State:            Background  Foreground,     Background-alt,     Highlight bg,   Highlight fg
+rofi.color-normal:  #002f343f,   #f3f4f5,        #002f343f,          #002f343f,      #2aa198
+rofi.color-urgent:  #ff0000,    #ff0000,        #ff0000,            #ff0000,        #ff0000
+rofi.color-active:  #00ff00,    #00ff00,        #00ff00,            #00ff00,        #00ff00
+
+!                   Background  Border      Separator
+rofi.color-window:  #f22f343f,  #002f343f,  #252933
+
+rofi.fake-transparency: True

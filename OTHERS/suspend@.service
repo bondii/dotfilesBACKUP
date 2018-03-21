@@ -1,0 +1,16 @@
+# /etc/systemd/system/suspend@.service
+[Unit]
+Description=User suspend actions
+Before=sleep.target hibernate.target
+Requires=suspend-to-hibernate.service
+
+[Service]
+User=%I
+Type=forking
+Environment=DISPLAY=:0
+ExecStartPre= -/usr/bin/pkill -u %u unison
+ExecStart=/home/bondi/.config/i3/lock.sh
+ExecStartPost=/usr/bin/sleep 1
+
+[Install]
+WantedBy=sleep.target
